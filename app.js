@@ -8,4 +8,4 @@ app.get('/', async (req, res, next) => {
 })
 module.exports.server = sls(app)
 
-// sls config credentials --provider aws --key AKIASEZJPDXTQ4SLVKWV --secret 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
+// sls config credentials --provider aws --key xxxxxxxx --secret cxxxxxxxx+xxxxxxxx
