@@ -7,5 +7,3 @@ app.get('/', async (req, res, next) => {
   res.status(200).send('Hello World!')
 })
 module.exports.server = sls(app)
-
-// sls config credentials --provider aws --key xxxxxxxx --secret cxxxxxxxx+xxxxxxxx
